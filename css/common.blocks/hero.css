@@ -1,0 +1,29 @@
+.hero {
+    padding: 70px 0;
+    background-color: #F6F6F6;
+}
+
+.main__hero {
+    margin-bottom: 100px;
+}
+
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero__before-title {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.hero__img {
+    max-width: 452px;
+}
+
+.hero__title {
+    max-width: 200px;
+    margin-bottom: 10px;
+}

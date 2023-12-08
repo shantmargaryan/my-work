@@ -1,0 +1,30 @@
+.servisces {
+    padding-bottom: 120px;
+}
+
+.services__before-title {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.services__title {
+    margin-bottom: 100px;
+}
+
+.services__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.services__small-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.services__icon {
+    width: 100px;
+}
