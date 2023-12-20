@@ -10,6 +10,17 @@
 .portfolio__before-title {
     display: block;
     margin-bottom: 20px;
+    transition: 1s ease 0.8s;
+}
+
+.portfolio__before-title.scroll-anim {
+    transform: translateX(-100px);
+    opacity: 0;
+}
+
+.portfolio__before-title.scroll-anim_active {
+    transform: translateX(0);
+    opacity: 1;
 }
 
 .portfolio__content {
@@ -60,10 +71,35 @@
 
 .portfolio__title {
     margin-bottom: 70px;
+    transition: 1s ease 0.5s;
+}
+
+.portfolio__title.scroll-anim {
+    transform: translateX(-100px);
+    opacity: 0;
+}
+
+.portfolio__title.scroll-anim_active {
+    transform: translateX(0);
+    opacity: 1;
 }
 
 .portfolio__list {
     margin-bottom: 40px;
+}
+
+.portfolio__item {
+    transition: 1s ease 0.5s;
+}
+
+.portfolio__item.scroll-anim {
+    transform: translateX(-100px);
+    opacity: 0;
+}
+
+.portfolio__item.scroll-anim_active {
+    transform: translateX(0);
+    opacity: 1;
 }
 
 

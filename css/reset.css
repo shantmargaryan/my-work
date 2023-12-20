@@ -18,6 +18,7 @@ html {
 .page__body {
     margin: 0;
     font-family: MetronicSlabPro;
+    overflow-x: hidden;
 }
 
 .list-reset {

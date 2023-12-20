@@ -5,10 +5,32 @@
 .services__before-title {
     display: block;
     margin-bottom: 20px;
+    transition: 1s ease 0.5s;
+}
+
+.services__before-title.scroll-anim {
+    transform: translateX(-50px);
+    opacity: 0;
+}
+
+.services__before-title.scroll-anim_active {
+    transform: translateX(0);
+    opacity: 1;
 }
 
 .services__title {
     margin-bottom: 100px;
+    transition: 1s ease 0.7s;
+}
+
+.services__title.scroll-anim {
+    transform: translateX(-50px);
+    opacity: 0;
+}
+
+.services__title.scroll-anim_active {
+    transform: translateX(0);
+    opacity: 1;
 }
 
 .services__list {
@@ -16,6 +38,28 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+.services__item {
+    transition: 1s ease 0.8s;
+}
+
+.services__item.scroll-anim {
+    transform: translateY(-50px);
+    opacity: 0;
+}
+
+.services__item.scroll-anim_active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.services__item:nth-child(2) {
+    transition: 1s ease 1s;
+}
+
+.services__item:nth-child(3) {
+    transition: 1s ease 1.2s;
 }
 
 
