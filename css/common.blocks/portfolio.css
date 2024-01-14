@@ -14,7 +14,7 @@
 }
 
 .portfolio__before-title.scroll-anim {
-    transform: translateX(-100px);
+    transform: translateX(-10px);
     opacity: 0;
 }
 
@@ -75,7 +75,7 @@
 }
 
 .portfolio__title.scroll-anim {
-    transform: translateX(-100px);
+    transform: translateX(-10px);
     opacity: 0;
 }
 
@@ -93,7 +93,7 @@
 }
 
 .portfolio__item.scroll-anim {
-    transform: translateX(-100px);
+    transform: translateX(-10px);
     opacity: 0;
 }
 

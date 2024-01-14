@@ -9,7 +9,7 @@
 }
 
 .services__before-title.scroll-anim {
-    transform: translateX(-50px);
+    transform: translateX(-10px);
     opacity: 0;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .services__title.scroll-anim {
-    transform: translateX(-50px);
+    transform: translateX(-10px);
     opacity: 0;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .services__item.scroll-anim {
-    transform: translateY(-50px);
+    transform: translateY(-10px);
     opacity: 0;
 }
 

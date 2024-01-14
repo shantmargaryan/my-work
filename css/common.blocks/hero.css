@@ -21,7 +21,7 @@
 }
 
 .hero__title.scroll-anim {
-    transform: translateX(-50px);
+    transform: translateX(-10px);
     opacity: 0;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .hero__text.scroll-anim {
-    transform: translateX(-50px);
+    transform: translateX(-10px);
     opacity: 0;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .hero__img.scroll-anim {
-    transform: translateX(50px);
+    transform: translateX(10px);
     opacity: 0;
 }
 
